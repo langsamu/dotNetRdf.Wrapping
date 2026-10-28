@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <!-- Default Assembly metadata -->
-    <Copyright>Copyright © dotNetRDF Project 2009-2026</Copyright>
+    <Copyright>Copyright © Samu Lang 2025-2026</Copyright>
     <!-- Default Build Options -->
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -13,13 +13,12 @@
 
   <PropertyGroup>
 	  <!-- Default NuGet Package metadata -->
-    <PackageTags>RDF;Semantic;Web;SPARQL;RDF/XML;Turtle;Notation3;JSON-LD</PackageTags>
-    <PackageProjectUrl>https://www.dotnetrdf.org</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/langsamu/dotNetRdf.Wrapping</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RequiresLicenseAcceptance>false</RequiresLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/dotnetrdf/dotnetrdf</RepositoryUrl>
-    <Authors>RobVesse;tpluscode;kal_ahmed;ronmichael;dotnetrdf</Authors>
+    <RepositoryUrl>https://github.com/langsamu/dotNetRdf.Wrapping</RepositoryUrl>
+    <Authors>Samu Lang</Authors>
     <PackageIcon>icon.png</PackageIcon>
     <!--
       NB: Ideally this section would contain a common PackageReadmeFile property.

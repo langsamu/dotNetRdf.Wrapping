@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <!-- Default Assembly metadata -->
-    <Copyright>Copyright © dotNetRDF Project 2009-2025</Copyright>
+    <Copyright>Copyright © Samu Lang 2025-2026</Copyright>
     <!-- Default Build Options -->
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <TargetFramework>net10.0</TargetFramework>

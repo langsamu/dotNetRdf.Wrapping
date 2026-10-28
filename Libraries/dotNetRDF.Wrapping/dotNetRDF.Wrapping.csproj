@@ -9,7 +9,7 @@
 
   <PropertyGroup>
     <!-- NuGet Package Metadata. Additional values are inherited from ../Directory.Build.props -->
-    <PackageId>dotNetRdf.Wrapping</PackageId>
+    <PackageId>langsamu.dotNetRdf.Wrapping</PackageId>
     <Title>dotNetRdf Wrapping</Title>
     <Description>Provides convenience functionality for mapping RDF to object oriented code.</Description>
     <PackageTags>RDF;mapping;OO</PackageTags>
