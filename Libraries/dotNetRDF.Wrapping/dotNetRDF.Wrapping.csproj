@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\dotNetRdf.Core\dotNetRdf.Core.csproj" />
+    <PackageReference Include="dotNetRdf.Core" />
   </ItemGroup>
 
 </Project>
