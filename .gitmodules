@@ -1,3 +1,0 @@
-[submodule "Testing/dotNetRdf.TestSuite.W3C/resources/rdf-tests"]
-	path = Testing/dotNetRdf.TestSuite.W3C/resources/rdf-tests
-	url = https://github.com/w3c/rdf-tests.git

@@ -1,5 +1,0 @@
-﻿PREFIX ab: <http://learningsparql.com/ns/addressbook#> 
-
-SELECT ?craigEmail FROM <dataset-1.ttl>
-WHERE
-{ ab:craig ab:email ?craigEmail . }
