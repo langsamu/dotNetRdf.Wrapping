@@ -37,7 +37,7 @@ public class Tests(ITestOutputHelper output)
         .
         """;
 
-    [Fact]
+    [Fact(Skip = "Requires WrapperNode to implement IGraphLiteralNode (dotNetRdf.Core > 3.5.2)")]
     public void Read()
     {
         var actual = new RDF.Graph();
