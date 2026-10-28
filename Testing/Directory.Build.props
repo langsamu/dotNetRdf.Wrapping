@@ -4,7 +4,6 @@
     <!-- Default Assembly metadata -->
     <Copyright>Copyright © dotNetRDF Project 2009-2025</Copyright>
     <!-- Default Build Options -->
-    <CodeAnalysisRuleSet>../../dotnetrdf.ruleset</CodeAnalysisRuleSet>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <TargetFramework>net10.0</TargetFramework>
     <DebugType>full</DebugType>
@@ -12,9 +11,6 @@
     <LangVersion>latest</LangVersion>
     <IsPackable>false</IsPackable>
     <NoWarn>1591</NoWarn>
-    <AssemblyOriginatorKeyFile>../../Build/dotNetRDF.snk</AssemblyOriginatorKeyFile>
-    <SignAssembly>true</SignAssembly>
-    <PublicSign>true</PublicSign>
    </PropertyGroup>
 
 </Project>
