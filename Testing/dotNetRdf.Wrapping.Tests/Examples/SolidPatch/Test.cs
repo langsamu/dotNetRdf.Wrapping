@@ -37,6 +37,7 @@ public class Tests(ITestOutputHelper output)
         .
         """;
 
+    // TODO: Remove Skip once https://github.com/dotnetrdf/dotnetrdf/pull/915 is released in dotNetRdf.Core
     [Fact(Skip = "Requires WrapperNode to implement IGraphLiteralNode (dotNetRdf.Core > 3.5.2)")]
     public void Read()
     {
