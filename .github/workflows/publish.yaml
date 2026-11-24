@@ -31,7 +31,9 @@ jobs:
       uses: actions/upload-artifact@v7
       with:
         name: nuget
-        path: nugets\*.nupkg
+        path: |
+          nugets\*.nupkg
+          nugets\*.snupkg
 
     - name: Create Release
       uses: softprops/action-gh-release@v3
@@ -41,6 +43,7 @@ jobs:
         prerelease: true
         files: |
           nugets/*.nupkg
+          nugets/*.snupkg
 
     - name: NuGet login
       uses: NuGet/login@v1
